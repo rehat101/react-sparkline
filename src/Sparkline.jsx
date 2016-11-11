@@ -11,13 +11,9 @@ class Sparkline extends Component {
     this.state = {
       data: [145, 123, 121, 78, 23, 9, 23, 24, 25, 89, 35, 124, 78, 98]
     };
-
-    // this.drawCanvas = this.drawCanvas.bind(this);
   }
 
   componentDidMount() {
-    // const { SparkStore } = this.props;
-    // SparkStore.loadData(this.props.name);
     this.poll();
   }
 
